@@ -1,0 +1,118 @@
+* {
+    background-color: black;
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.div-Form {
+    display: flex;
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    width: 700px;
+    height: 500px;
+    background-color: blue;
+    color: white;
+    box-shadow: rgba(64, 0, 255, 0.696) 5px 5px 25px;
+}
+
+.form-t {
+    align-self: center;
+    text-align: center;
+    margin: auto;
+    background-color: blue;
+}
+
+.form {
+    display: grid;
+    height: 500px;
+    width: 335px;
+    align-content: center;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    justify-items: center;
+    background: none;
+    background-color: white;
+}
+
+.form-Login {
+    background-color: white;
+    color: black;
+    margin-bottom: 25px;
+}
+
+input {
+    margin-bottom: 20px;
+    color: black;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-width: 1px;
+    width: 300px;
+    height: 30px;
+    background-color: white;
+}
+
+label {
+    color: rgb(107, 107, 107);
+    margin: auto;
+    margin-bottom: 10px;
+    background-color: white;
+}
+
+#psw, #uname {
+    margin-left: 2px;
+    font-size: 14px;
+}
+
+input:focus{
+    outline: none;
+    background-color: white;
+}
+
+.chbx {
+    height: 12px;
+    width: 12px;
+    margin-top: 25px;
+}
+
+.btn-Login {
+    border-radius: 5px;
+    border: none;
+    margin: auto;
+    width: 280px;
+    height: 33px;
+    background-color: rgb(85, 11, 170);
+    color: white;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+.btn-Login:focus {
+    outline-color: transparent;
+    outline-style:solid;
+    box-shadow: 0 0 0 1px #c500cf;
+}
+
+.btn-Login:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 0px 1px rgba(26, 0, 50, 0.629);
+}
+
+h1, p {
+    background-color: blue;
+}
+
+b, a {
+    background-color: white;
+}
+
+span {
+    margin-top: 15px;
+}
+
+a {
+    color: rgb(113, 113, 113);
+}

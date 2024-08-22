@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Template</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="div-Form">
+        <div class="form-t">
+            <h1>Bem-vindo a Template!</h1>
+            <p>Cadastre-se ou faça Login para olhar nossos produtos!</p>
+        </div>
+        
+        <form class="form" action="submit">
+            
+            <h1 class="form-Login">Login</h1>
+
+            <label id="uname" for="uname"><b>Usuário *</b></label>
+            <input type="text" placeholder="Seu Usuário" name="uname" required>
+            
+            <label id="psw" for="psw"><b>Senha *</b></label>
+            <input type="password" placeholder="Sua Senha" name="psw" required>
+
+            <button class="btn-Login" type="submit">Entrar</button>
+            
+            <label>
+                <input class="chbx" type="checkbox" checked="checked" name="remember"> Manter-me conectado
+            </label>
+
+            <span id="register" class="rg"><a href="#">Crie uma conta aqui!</a></span>
+            <span id="forget" class="psw"><a href="#">Esqueceu sua senha?</a></span>
+            
+        </form>
+    </div>
+    
+</body>
+</html>
